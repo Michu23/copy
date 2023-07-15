@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cc0c6da9.css",
+    "main.js": "/static/js/main.840f2267.js",
+    "static/js/787.34c45f07.chunk.js": "/static/js/787.34c45f07.chunk.js",
+    "static/media/Pagination.svg": "/static/media/Pagination.bb9873fec32ca8f4be56a3506244bf63.svg",
+    "static/media/Banner.svg": "/static/media/Banner.2975a49fcce7c584989db1962f06c6da.svg",
+    "static/media/card1.png": "/static/media/card1.503d77b947d39a0ae8c2.png",
+    "static/media/Spotify.svg": "/static/media/Spotify.0f7a1a23d34066bad19570290c0909bc.svg",
+    "static/media/Mask2.svg": "/static/media/Mask2.ab7f22fd03bae182b9bfd1621df79d12.svg",
+    "static/media/Pinterest.svg": "/static/media/Pinterest.288610ddeb725ef97bcb9311925ee79a.svg",
+    "static/media/Reddit.svg": "/static/media/Reddit.1d0509e11db4961dbedccd94bc3848fa.svg",
+    "static/media/FAQ.svg": "/static/media/FAQ.fd07a37cab096cbaa480.svg",
+    "static/media/Google.svg": "/static/media/Google.f366f26102f6d6b70b5e14f9cefd38b3.svg",
+    "static/media/Maskgroup.svg": "/static/media/Maskgroup.67eac810ed92181af55f56c1d5d25928.svg",
+    "static/media/Stripe.svg": "/static/media/Stripe.f659967a1d09a3355622d45bea9c5993.svg",
+    "static/media/leftarrow.svg": "/static/media/leftarrow.45fd93323224c0111470793876a8c5d8.svg",
+    "static/media/rightarrow.svg": "/static/media/rightarrow.559808f7408b3c7bce37e7effef0a268.svg",
+    "static/media/pipeline__icon.svg": "/static/media/pipeline__icon.13e0b5dcf171fc69895d5ca76488ad47.svg",
+    "static/media/FlairMain.svg": "/static/media/FlairMain.cdf55325679cb4ad6ca4c719bd1fe1be.svg",
+    "static/media/Ellips.svg": "/static/media/Ellips.2cbb7f60f22d61c3c66b2d17b8a6f4b0.svg",
+    "static/media/circleflare.svg": "/static/media/circleflare.e1ba867ab205dd53b84cfecc46f25472.svg",
+    "static/media/arrow-right-circle.svg": "/static/media/arrow-right-circle.5001d69a026e0d50cddf02cd6db5364b.svg",
+    "index.html": "/index.html",
+    "static/media/Union.svg": "/static/media/Union.5f883395285147bd95b786c5fa2c6790.svg",
+    "static/media/Ellipse.svg": "/static/media/Ellipse.c2153c670622bce4f32c96a855a95662.svg",
+    "main.cc0c6da9.css.map": "/static/css/main.cc0c6da9.css.map",
+    "main.840f2267.js.map": "/static/js/main.840f2267.js.map",
+    "787.34c45f07.chunk.js.map": "/static/js/787.34c45f07.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc0c6da9.css",
+    "static/js/main.840f2267.js"
+  ]
+}
