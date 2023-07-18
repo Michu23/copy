@@ -4,7 +4,7 @@ import { ReactComponent as MySvgg } from '../assets/FlairMain.svg';
 
 const Flair = () => {
   return (
-    <div>
+    <div className='display__desktop' style={{ width: '80rem'}}>
         <svg xmlns="http://www.w3.org/2000/svg" class='flair' width="1918" height="1520" className="flair" viewBox="0 0 1918 1520" fill="none" style={{
 width: '1985px',
   height: '1287px',

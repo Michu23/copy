@@ -28,7 +28,7 @@ const FAQs = () => {
 
   return (
     <div>
-      <div className="first">
+      <div className="display__desktop"><div className="first">
         <div className="faqs">
           <div className="faqcontent">
             <h2 className="fheading">Frequently Asked Questions</h2>
@@ -154,7 +154,133 @@ const FAQs = () => {
             </div>
           </div>
         </div>
+      </div></div>
+      <div className="display__mobile">
+        <div className="faq__mob">
+          <h2>
+          Frequently Asked 
+Questions
+          </h2>
+          <div className="mob__faq__content">
+            <div className="mob__faq">
+              <div className="mob__top">
+                <div className="mob__q">
+                <h4>01</h4>
+                <h4>Store, manage, secure and unlock ?</h4>
+              </div>
+              <div className="closebtn"
+                     
+                      >
+                        <img
+                          src={Union}
+                          alt=""
+                        />
+                      </div>
+              </div>
+              <p>
+              Nibh quisque suscipit fermentum netus nulla cras porttitor euismod nulla. Orci, dictumst nec aliquet id ullamcorper venenatis. Fermentum sulla craspor ttitore  ismod nulla.
+              </p>
+
+              <hr />
+              <div className="mob__top">
+                <div className="mob__q">
+                <h4>01</h4>
+                <h4>Store, manage, secure and unlock ?</h4>
+              </div>
+              <div className="closebtn"
+                     
+                      >
+                        <img
+                          src={Union}
+                          alt=""
+                        />
+                      </div>
+              </div>
+              <p>
+              Nibh quisque suscipit fermentum netus nulla cras porttitor euismod nulla. Orci, dictumst nec aliquet id ullamcorper venenatis. Fermentum sulla craspor ttitore  ismod nulla.
+              </p>
+
+              <hr />
+              <div className="mob__top">
+                <div className="mob__q">
+                <h4>01</h4>
+                <h4>Store, manage, secure and unlock ?</h4>
+              </div>
+              <div className="closebtn"
+                     
+                      >
+                        <img
+                          src={Union}
+                          alt=""
+                        />
+                      </div>
+              </div>
+              <p>
+              Nibh quisque suscipit fermentum netus nulla cras porttitor euismod nulla. Orci, dictumst nec aliquet id ullamcorper venenatis. Fermentum sulla craspor ttitore  ismod nulla.
+              </p>
+
+              <hr />
+              <div className="mob__top">
+                <div className="mob__q">
+                <h4>01</h4>
+                <h4>Store, manage, secure and unlock ?</h4>
+              </div>
+              <div className="closebtn"
+                     
+                      >
+                        <img
+                          src={Union}
+                          alt=""
+                        />
+                      </div>
+              </div>
+              <p>
+              Nibh quisque suscipit fermentum netus nulla cras porttitor euismod nulla. Orci, dictumst nec aliquet id ullamcorper venenatis. Fermentum sulla craspor ttitore  ismod nulla.
+              </p>
+
+              <hr />
+              <div className="mob__top">
+                <div className="mob__q">
+                <h4>01</h4>
+                <h4>Store, manage, secure and unlock ?</h4>
+              </div>
+              <div className="closebtn"
+                     
+                      >
+                        <img
+                          src={Union}
+                          alt=""
+                        />
+                      </div>
+              </div>
+              <p>
+              Nibh quisque suscipit fermentum netus nulla cras porttitor euismod nulla. Orci, dictumst nec aliquet id ullamcorper venenatis. Fermentum sulla craspor ttitore  ismod nulla.
+              </p>
+
+              <hr />
+              <div className="mob__top">
+                <div className="mob__q">
+                <h4>01</h4>
+                <h4>Store, manage, secure and unlock ?</h4>
+              </div>
+              <div className="closebtn"
+                     
+                      >
+                        <img
+                          src={Union}
+                          alt=""
+                        />
+                      </div>
+              </div>
+              <p>
+              Nibh quisque suscipit fermentum netus nulla cras porttitor euismod nulla. Orci, dictumst nec aliquet id ullamcorper venenatis. Fermentum sulla craspor ttitore  ismod nulla.
+              </p>
+
+            </div>
+          </div>
+        </div>
       </div>
+      
     </div>
   );
 };
