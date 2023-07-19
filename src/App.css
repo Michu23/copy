@@ -1623,7 +1623,7 @@ a {
   justify-content: center;
   align-items: flex-start;
   gap: 0.28569rem;
-  width: 100%;
+  width: 90vw;
   max-width: 40rem;
   height: 50px;
   overflow-y: hidden;
