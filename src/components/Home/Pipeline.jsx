@@ -27,8 +27,7 @@ const Pbox = ({ph,pd,pa}) => {
 const Pipeline = () => {
   return (
     <div>
-        <div className="display__desktop">
-             <div className='first' style={{
+        <div className='first' style={{
                 position: 'relative',
             }}>
                 <img src={Mask2} alt=""
@@ -86,91 +85,6 @@ const Pipeline = () => {
                           </div>
                     </div>
             </div>
-        </div>
-        <div className="display__mobile">
-<div className="pp__mob">
-    <h2>
-    Unified Data Platform 
-    <br />
-    Powered by dView's 
-    <br />
-    Data Pipeline Engine.
-    </h2>
-    <div className="pp__mob__boxes">
-        <img src={Picon} style={{
-            width: '5rem',
-            height: '5rem',
-        }} alt="" />
-        <h4>
-        Realtime Empowers
-        </h4>
-        <p>
-        Realtime data ingestion into Messaging Queues like Kafka or SQS. Build Machine Learning Models, Recommendation Engine, Fraud Detection Modules, and more. Power personalised customer experiences.
-        </p>
-        <div className="pp__mob__btn">
-            <a href="#">
-            Know More
-            </a>
-        </div>
-
-    </div>
-    <div className="pp__mob__boxes">
-        <img src={Picon} style={{
-            width: '5rem',
-            height: '5rem',
-        }} alt="" />
-        <h4>
-        Realtime Empowers
-        </h4>
-        <p>
-        Realtime data ingestion into Messaging Queues like Kafka or SQS. Build Machine Learning Models, Recommendation Engine, Fraud Detection Modules, and more. Power personalised customer experiences.
-        </p>
-        <div className="pp__mob__btn">
-            <a href="#">
-            Know More
-            </a>
-        </div>
-
-    </div>
-    <div className="pp__mob__boxes">
-        <img src={Picon} style={{
-            width: '5rem',
-            height: '5rem',
-        }} alt="" />
-        <h4>
-        Realtime Empowers
-        </h4>
-        <p>
-        Realtime data ingestion into Messaging Queues like Kafka or SQS. Build Machine Learning Models, Recommendation Engine, Fraud Detection Modules, and more. Power personalised customer experiences.
-        </p>
-        <div className="pp__mob__btn">
-            <a href="#">
-            Know More
-            </a>
-        </div>
-
-    </div>
-    <div className="pp__mob__boxes">
-        <img src={Picon} style={{
-            width: '5rem',
-            height: '5rem',
-        }} alt="" />
-        <h4>
-        Realtime Empowers
-        </h4>
-        <p>
-        Realtime data ingestion into Messaging Queues like Kafka or SQS. Build Machine Learning Models, Recommendation Engine, Fraud Detection Modules, and more. Power personalised customer experiences.
-        </p>
-        <div className="pp__mob__btn">
-            <a href="#">
-            Know More
-            </a>
-        </div>
-
-    </div>
-   
-</div>
-        </div>
     </div>
   )
 }

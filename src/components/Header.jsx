@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import '../App.css'
 import { ReactComponent as MySvg } from '../assets/Ellipse.svg'
-import Hamburger from '../assets/Mobile/Hamburger.svg';
-
-
 
 const Header = () => {
 
@@ -24,10 +21,11 @@ const Header = () => {
 
         window.addEventListener('scroll', function (e) {
 
+
             currentScrollPosition = window.pageYOffset;
 
-              console.log("Scroll position", currentScrollPosition);
-            console.log("Previous scroll position", previousScrollPosition);
+            //   console.log("Scroll position", currentScrollPosition);
+            // console.log("Previous scroll position", previousScrollPosition);
 
             if (previousScrollPosition - currentScrollPosition < 0) {
                 setShow(false);
@@ -40,9 +38,7 @@ const Header = () => {
     }, [])
 
     return (
-        <>
-        <div className="display__desktop">
-        <div className="header">
+        <div className={`${show ? 'header' : 'header__hidden'}`}>
             <div className="logo">Dview.io</div>
             <div className="nav">
                 <a href="/">Platform</a>
@@ -57,19 +53,7 @@ const Header = () => {
             <div className="connect">
                 <a href="/connect">Contact Us</a>
             </div>
-        </div> </div>
-        <div className="display__mobile mw">
-            <div className="mobile__header">
-            <div className="logo">
-                Dview.io
-            </div>
-            <div className="hamburger__mob">
-                <img src={Hamburger} alt="" />
-            </div> 
         </div>
-        </div>
-        
-        </>
     )
 }
 
