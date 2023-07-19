@@ -28,12 +28,13 @@ const FAQs = () => {
 
   return (
     <div>
-      <div className="display__desktop"><div className="first">
-        <div className="faqs">
-          <div className="faqcontent">
-            <h2 className="fheading">Frequently Asked Questions</h2>
+      <div className="display__desktop">
+        <div className="first">
+          <div className="faqs">
             <div className="faqcontent">
-              {/* <div className="faq">
+              <h2 className="fheading">Frequently Asked Questions</h2>
+              <div className="faqcontent">
+                {/* <div className="faq">
                 <h4 className="sl">01</h4>
                 <div className="qna">
                   <div className="topelement">
@@ -130,66 +131,61 @@ const FAQs = () => {
                 </div>
               </div> */}
 
-              {faqsData.map((faq, index) => (
-                <div className="faq" key={index}>
-                  <h4 className="sl">{faq.sl}</h4>
-                  <div className="qna">
-                    <div className="topelement">
-                      <div>
-                        <h5>{faq.question}</h5>{" "}
+                {faqsData.map((faq, index) => (
+                  <div className="faq" key={index}>
+                    <h4 className="sl">{faq.sl}</h4>
+                    <div className="qna">
+                      <div className="topelement">
+                        <div>
+                          <h5>{faq.question}</h5>{" "}
+                        </div>
+                        <div
+                          className={` ${
+                            expandedIndex === index
+                              ? "closebtn"
+                              : "closebtn__closed"
+                          }`}
+                          onClick={() => handleToggle(index)}
+                        >
+                          <img src={Union} alt="" />
+                        </div>
                       </div>
-                      <div className={` ${expandedIndex === index ? 'closebtn' : 'closebtn__closed'}`}
-                      onClick={() => handleToggle(index)}
-                      >
-                        <img
-                          src={Union}
-                          alt=""
-                        />
-                      </div>
+                      {expandedIndex === index && <p>{faq.answer}</p>}
                     </div>
-                    {expandedIndex === index && <p>{faq.answer}</p>}
                   </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div></div>
-      <div className="display__mobile">
-        <div className="faq__mob">
-          <h2>
-          Frequently Asked 
-Questions
-          </h2>
-          <div className="mob__faq__content">
-          {faqsData.map((faq, index) => (
-            <div className="mob__faq" key={index}>
-              <div className="mob__top">
-                <div className="mob__q">
-                <h4>{faq.sl}</h4>
-                <h4>{faq.question}</h4>
+                ))}
               </div>
-              <div className={` ${expandedIndex === index ? 'closebtn' : 'closebtn__closed'}`}
-                      onClick={() => handleToggle(index)}
-                      >
-                        <img
-                          src={Union}
-                          alt=""
-                        />
-                      </div>
-              </div>
-              {expandedIndex === index && <p>{faq.answer}</p>}
-
-              <hr />
-             
-
             </div>
-              ))}
-
           </div>
         </div>
       </div>
-      
+      <div className="display__mobile">
+        <div className="faq__mob">
+          <h2>Frequently Asked Questions</h2>
+          <div className="mob__faq__content">
+            {faqsData.map((faq, index) => (
+              <div className="mob__faq" key={index}>
+                <div className="mob__top">
+                  <div className="mob__q">
+                    <h4>{faq.sl}</h4>
+                    <h4>{faq.question}</h4>
+                  </div>
+                  <div
+                    className={` ${
+                      expandedIndex === index ? "closebtn" : "closebtn__closed"
+                    }`}
+                    onClick={() => handleToggle(index)}
+                  >
+                    <img src={Union} alt="" />
+                  </div>
+                </div>
+                {expandedIndex === index && <p>{faq.answer}</p>}
+                <hr />
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

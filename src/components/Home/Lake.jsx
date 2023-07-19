@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Pagination from "../../assets/Pagination.svg";
 
 const Lake = () => {
-  const [expand, setExpand] = useState("");
+  const [expand, setExpand] = useState("fiber");
 
   return (
     <>

@@ -640,9 +640,29 @@ a {
 }
 
 .lake__boxes__mob.expanded{
-  height: 120px;
+  height: 170px;
 }
 
+@keyframes moveDottedLine {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: -1000;
+  }
+}
+
+#path1, #path2, #path3 {
+  animation: moveDottedLine 4s linear infinite;
+  color: blue !important;
+  margin-top: 100rem !important;
+}
+
+.dotted_line{
+  animation: moveDottedLine 4s linear infinite;
+  color: blue !important;
+  margin-top: 100rem !important;
+}
 
 
 .fiber {
@@ -1248,8 +1268,8 @@ a {
   display: flex;
   width: 2.5rem;
   height: 2.5rem;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  /* align-items: center; */
   gap: 0.625rem;
 
   border-radius: 1.5rem;
@@ -1921,6 +1941,7 @@ a {
   display: inline-flex;
   align-items: center;
   gap: 1rem;
+  /* width: 90vw; */
 }
 
 .mob__q h4 {
@@ -1935,10 +1956,11 @@ a {
 }
 
 .mob__top{
-  display: flex;
-align-items: center;
-gap: 1.875rem;
-width: 90vw;
+  display: flex !important;
+/* align-items: center; */
+justify-content: space-between !important;
+/* gap: 1.875rem; */
+width: 90vw !important;
 }
 
 
@@ -1957,7 +1979,7 @@ margin: 0;
 }
 
 .mob__faq hr {
-  width: 85vw;
+  width: 90vw;
   height: 0.0625rem;
   border: 0;
   background: rgba(255, 255, 255, 0.20);

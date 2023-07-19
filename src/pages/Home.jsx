@@ -10,6 +10,7 @@ import Pipeline from "../components/Home/Pipeline";
 import Success from "../components/Home/Success";
 import FAQs from "../components/Home/FAQs";
 import BannerMob from "../assets/Mobile/BannerMob.svg";
+import Banner2 from "../components/Home/Banner";
 
 const Home = () => {
   return (
@@ -26,7 +27,7 @@ const Home = () => {
           </div>
           <div className="description">
             <p>
-            Discover a more efficient way to scale your data analytics. Our advanced platform ingests all your data into a single source of truth and provides seamless access to data consumers. Built on an open architecture, it ensures faster, more reliable and scalable deployment of data solutions.
+              Discover a more efficient way to scale your data analytics. Our advanced platform ingests all your data into a single source of truth and provides seamless access to data consumers. Built on an open architecture, it ensures faster, more reliable and scalable deployment of data solutions.
             </p>
           </div>
           <div className="first">
@@ -35,7 +36,7 @@ const Home = () => {
               <MySvg />
             </div>
             <div className="banner">
-              <Banner />
+              <Banner2 />
             </div>
             <div className="grid">
               <Grid />
