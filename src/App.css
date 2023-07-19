@@ -18,7 +18,8 @@
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap");
+
 
 /*****************************  Header  **************************************/
 
@@ -630,13 +631,19 @@ a {
   border-radius: 0.5rem;
   height: 48px;
   overflow-y: hidden;
-  transition: all 0.00000001s;
+  /* transition: all 0.00000001s; */
   transform-origin: top center;
 }
 
 .lakeboxes.expanded {
   height: 150px;
 }
+
+.lake__boxes__mob.expanded{
+  height: 120px;
+}
+
+
 
 .fiber {
   background: linear-gradient(
@@ -1611,12 +1618,15 @@ a {
 
 .lake__boxes__mob {
   display: flex;
-  padding: 0.85713rem 1.14288rem;
+  padding: 1.85713rem 1.14288rem;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 0.28569rem;
-
+  width: 100%;
+  max-width: 40rem;
+  height: 50px;
+  overflow-y: hidden;
   border-radius: 0.28569rem;
   /* box-shadow: 9.14285659790039px 6.285714149475098px 20.571426391601562px 0px rgba(255, 255, 255, 0.25) inset, 4.571428298950195px 10.285713195800781px 11.428570747375488px 0px rgba(255, 255, 255, 0.08) inset; */
 }
@@ -1766,7 +1776,7 @@ a {
 .success__mob__boxes {
   display: flex;
   width: 90vw;
-  padding: 1.25rem;
+  padding: 2.5rem 1.25rem;
   flex-direction: column;
   align-items: flex-start;
   gap: 0.5rem;

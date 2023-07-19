@@ -162,14 +162,15 @@ const FAQs = () => {
 Questions
           </h2>
           <div className="mob__faq__content">
-            <div className="mob__faq">
+          {faqsData.map((faq, index) => (
+            <div className="mob__faq" key={index}>
               <div className="mob__top">
                 <div className="mob__q">
-                <h4>01</h4>
-                <h4>Store, manage, secure and unlock ?</h4>
+                <h4>{faq.sl}</h4>
+                <h4>{faq.question}</h4>
               </div>
-              <div className="closebtn"
-                     
+              <div className={` ${expandedIndex === index ? 'closebtn' : 'closebtn__closed'}`}
+                      onClick={() => handleToggle(index)}
                       >
                         <img
                           src={Union}
@@ -177,106 +178,14 @@ Questions
                         />
                       </div>
               </div>
-              <p>
-              Nibh quisque suscipit fermentum netus nulla cras porttitor euismod nulla. Orci, dictumst nec aliquet id ullamcorper venenatis. Fermentum sulla craspor ttitore  ismod nulla.
-              </p>
+              {expandedIndex === index && <p>{faq.answer}</p>}
 
               <hr />
-              <div className="mob__top">
-                <div className="mob__q">
-                <h4>01</h4>
-                <h4>Store, manage, secure and unlock ?</h4>
-              </div>
-              <div className="closebtn"
-                     
-                      >
-                        <img
-                          src={Union}
-                          alt=""
-                        />
-                      </div>
-              </div>
-              <p>
-              Nibh quisque suscipit fermentum netus nulla cras porttitor euismod nulla. Orci, dictumst nec aliquet id ullamcorper venenatis. Fermentum sulla craspor ttitore  ismod nulla.
-              </p>
-
-              <hr />
-              <div className="mob__top">
-                <div className="mob__q">
-                <h4>01</h4>
-                <h4>Store, manage, secure and unlock ?</h4>
-              </div>
-              <div className="closebtn"
-                     
-                      >
-                        <img
-                          src={Union}
-                          alt=""
-                        />
-                      </div>
-              </div>
-              <p>
-              Nibh quisque suscipit fermentum netus nulla cras porttitor euismod nulla. Orci, dictumst nec aliquet id ullamcorper venenatis. Fermentum sulla craspor ttitore  ismod nulla.
-              </p>
-
-              <hr />
-              <div className="mob__top">
-                <div className="mob__q">
-                <h4>01</h4>
-                <h4>Store, manage, secure and unlock ?</h4>
-              </div>
-              <div className="closebtn"
-                     
-                      >
-                        <img
-                          src={Union}
-                          alt=""
-                        />
-                      </div>
-              </div>
-              <p>
-              Nibh quisque suscipit fermentum netus nulla cras porttitor euismod nulla. Orci, dictumst nec aliquet id ullamcorper venenatis. Fermentum sulla craspor ttitore  ismod nulla.
-              </p>
-
-              <hr />
-              <div className="mob__top">
-                <div className="mob__q">
-                <h4>01</h4>
-                <h4>Store, manage, secure and unlock ?</h4>
-              </div>
-              <div className="closebtn"
-                     
-                      >
-                        <img
-                          src={Union}
-                          alt=""
-                        />
-                      </div>
-              </div>
-              <p>
-              Nibh quisque suscipit fermentum netus nulla cras porttitor euismod nulla. Orci, dictumst nec aliquet id ullamcorper venenatis. Fermentum sulla craspor ttitore  ismod nulla.
-              </p>
-
-              <hr />
-              <div className="mob__top">
-                <div className="mob__q">
-                <h4>01</h4>
-                <h4>Store, manage, secure and unlock ?</h4>
-              </div>
-              <div className="closebtn"
-                     
-                      >
-                        <img
-                          src={Union}
-                          alt=""
-                        />
-                      </div>
-              </div>
-              <p>
-              Nibh quisque suscipit fermentum netus nulla cras porttitor euismod nulla. Orci, dictumst nec aliquet id ullamcorper venenatis. Fermentum sulla craspor ttitore  ismod nulla.
-              </p>
+             
 
             </div>
+              ))}
+
           </div>
         </div>
       </div>

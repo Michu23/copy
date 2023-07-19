@@ -150,6 +150,24 @@ const Pipeline = () => {
         </div>
 
     </div>
+    <div className="pp__mob__boxes">
+        <img src={Picon} style={{
+            width: '5rem',
+            height: '5rem',
+        }} alt="" />
+        <h4>
+        Realtime Empowers
+        </h4>
+        <p>
+        Realtime data ingestion into Messaging Queues like Kafka or SQS. Build Machine Learning Models, Recommendation Engine, Fraud Detection Modules, and more. Power personalised customer experiences.
+        </p>
+        <div className="pp__mob__btn">
+            <a href="#">
+            Know More
+            </a>
+        </div>
+
+    </div>
    
 </div>
         </div>
